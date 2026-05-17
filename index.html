@@ -2,29 +2,39 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index-page-style.css">
     <title>Odin Recipes</title>
   </head>
+
   <body>
-    <h1><em>Receitas Odin!</em></h1>
-    <ul>
-      <li>
-        <a href="recipes/pudim.html">
-          <h3>Pudim</h3>
-          <img src="images/pudim.png" width="250px" height="150px">
-        </a>
-      </li>
-      <li>
-        <a href="recipes/feijoada.html">
-          <h3>Feijoada</h3>
-          <img src="images/feijoada.png" width="250px" height="150px">
-        </a>
-      </li>
-      <li>
-        <a href="recipes/macarrao.html">
-          <h3>Macarrão de forno cremoso</h3>
-          <img src="images/macarrao.png" width="250px" height="150px">
-        </a>
-      </li>
-    </ul>
+    <div id="menu">
+      <h1 class="title"><em>Receitas Odin!</em></h1>
+    </div>
+
+    <div class="recipe-card">
+      <a href="recipes/pudim.html">
+        <h1 class="title">Pudim de leite cremoso</h1>
+        <img src="images/pudim.png" class="card-image">
+        <p class="description">Um clássico que nunca sai de moda: pudim de leite com textura extremamente cremosa, sabor
+          delicado e uma irresistível calda de caramelo dourada. A sobremesa perfeita para adoçar qualquer momento.</p>
+      </a>
+    </div>
+
+    <div class="recipe-card">
+      <a href="recipes/macarrao.html">
+        <h1 class="title">Macarrão de forno queijudo</h1>
+        <img src="images/macarrao.png" class="card-image">
+        <p class="description">Uma combinação irresistível de massa, molho cremoso e muito queijo derretido gratinado por
+          cima. Um prato reconfortante, cheio de sabor, perfeito para quem ama uma refeição bem caprichada.</p>
+      </a>
+    </div>
+    <div class="recipe-card">
+      <a href="recipes/feijoada.html">
+        <h1 class="title">Feijoada brasileira</h1>
+        <img src="images/feijoada.png" class="card-image">
+        <p class="description">Um dos pratos mais tradicionais do Brasil, preparado com sabores intensos e muito carinho.
+          Uma feijoada encorpada, cheia de personalidade, perfeita para reunir família e amigos em volta da mesa.</p>
+      </a>
+    </div>
   </body>
 </html>
